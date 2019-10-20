@@ -138,7 +138,7 @@ int collision(int colA, int rowA, int widthA, int heightA, int colB, int rowB, i
 }
 
 void hideSprites() {
-    for (int i = 0; i < 128; i++) {
-        shadowOAM[i].attr0 = ATTR0_HIDE;
-    }
+    // for (int i = 0; i < 128; i++) {
+    //     shadowOAM[i].attr0 = ATTR0_HIDE;
+    // }
 }
